@@ -1,0 +1,30 @@
+~~~ Level Builder Legend ~~~
+    ___ - blank square
+COLOR:
+    B - BLUE
+    R - RED
+    Y - YELLOW
+    G - GREEN
+    P - PURPLE
+SHAPE:
+    D - DIAMOND
+    C - CROSS
+    S - STAR
+    F - FLOWER
+    L - LIGHTNING
+STATE:
+    0 - nothing
+    1 - GOAL
+    < - Player start LEFT
+    > - Player start RIGHT
+    ^ - Player start UP
+    v - Player start DOWN
+
+Levels Examples:
+RD0,RC1
+BD^,BC0
+
+RD1,RC0,RC0
+BD0,BCv,RC0
+BD0,BC0,RC0
+

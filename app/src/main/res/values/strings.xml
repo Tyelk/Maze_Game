@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Logic Maze</string>
+    <string name="game_title">Logic Maze</string>
+    <string name="settings_overlay_title">Settings</string>
+    <string name="pause_overlay_title">Paused</string>
+    <string name="how_to_play_overlay_title">How To Play</string>
+    <string name="win_overlay_title">YOU WIN!</string>
+    <string name="level_select_title">Level Select</string>
+
+    <string name="play_button_text">Play</string>
+    <string name="settings_button_text">Settings</string>
+    <string name="resume_button_text">Resume</string>
+    <string name="reset_button_text">Reset Level</string>
+    <string name="level_select_button_text">Level Select</string>
+    <string name="quit_button_text">Quit</string>
+    <string name="close_button_text">Close</string>
+    <string name="how_to_play_button_text">How To Play</string>
+    <string name="menu_button_text">Menu</string>
+    <string name="play_again_button_text">Play Again</string>
+    <string name="play_undo_button_text">Undo</string>
+
+    <string name="pause_button_description">Pause Button</string>
+    <string name="menu_button_description">Menu Button</string>
+    <string name="sound_effects_setting_text">Game Sound Effects</string>
+    <string name="tutorial_description_text">
+        - To win all goals must be hit (aqua squares)\n
+        - You must move to a square that is the same color OR shape\n
+        - You cannot move to squares behind you\n
+        - You cannot move diagonally\n
+        - You cannot move over blank squares\n
+        - Moving off a goal will turn it into a blank square\n
+        - Moves can be undone but will not be removed from the move count
+    </string>
+
+    <string name="game_level_text">Level %1$d</string>
+    <string name="game_move_text">Moves: %1$d</string>
+    <string name="game_goal_text">Goal %1$d/%2$d</string>
+
+    <string name="game_over_goal_text">Hit %1$d Goals</string>
+    <string name="game_over_move_text">In %1$d Moves</string>
+    <string name="game_over_time_text">Within %1$s</string>
+
+    <string name="error_no_levels">ERROR: no game levels found :(</string>
+    <string name="error_no_level_loaded">ERROR: no level was loaded</string>
+    <string name="error_unknown">ERROR: an unexpected error occurred, please try reloading</string>
+    <string name="error_reader_uninitialized">ERROR: file reader did not start correctly</string>
+    <string name="error_file_count">ERROR: an unexpected error occurred while trying to get the number of levels</string>
+    <string name="error_file_read">ERROR: an unexpected error occurred while trying to read a file</string>
+    <string name="error_invalid_level_number">ERROR: an unexpected error occurred while trying to select a level</string>
+    <string name="error_invalid_level">ERROR: an unexpected error occurred while trying to create a level</string>
+    <string name="error_invalid_square">ERROR: an unexpected error occurred while trying to populate a level</string>
+    <string name="error_invalid_direction">ERROR: an unexpected error occurred while trying to create a player</string>
+    <string name="error_invalid_position_or_level">ERROR: an unexpected error occurred while trying to access a level or position</string>
+    <string name="error_invalid_eyeball_or_level">ERROR: an unexpected error occurred while trying to access a level or player</string>
+    <string name="error_level_exists">ERROR: an unexpected error occurred while trying to create an existing level</string>
+    <string name="error_malformed_level_data">ERROR: level data invalid</string>
+    <string name="error_missing_repo">ERROR: an unexpected error occurred while setting up, please try restarting</string>
+    <string name="error_no_player">ERROR: level is missing player piece</string>
+
+    <string name="move_error_same_position">Can not move to the same square</string>
+    <string name="move_error_different_shape_or_color">Must move to a square with a matching shape or color</string>
+    <string name="move_error_backwards_move">Can not move backwards</string>
+    <string name="move_error_move_over_blank">Can not move to/over blank squares</string>
+    <string name="move_error_move_diagonal">Can not move diagonally</string>
+    <string name="move_error_no_past_moves">No past moves</string>
+</resources>
