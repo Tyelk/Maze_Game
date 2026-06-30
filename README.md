@@ -11,3 +11,5 @@ Simple logic maze game built for Android.
 - Can NOT move over blank spaces.
 
 # Demo Video
+
+https://github.com/user-attachments/assets/1d32d194-4ca8-42f7-835e-6f5db17ff42a
