@@ -33,6 +33,40 @@ git clone https://github.com/Tyelk/Maze_Game.git
 
 <video src="https://github.com/user-attachments/assets/1d32d194-4ca8-42f7-835e-6f5db17ff42a" controls width="100%"></video>
 
+# File Structure
+```
+├── app/
+│   ├── src/
+│   │   ├── androidTest/                             # UI tests
+│   │   └── main/
+│   │       ├── assets/
+│   │       │   ├── levels/                          # Level data (custom levels can be added)
+│   │       │   └── level_builder_legend.txt         # Level creation guide
+│   │       ├── java/
+│   │       │   └── nz/
+│   │       │       └── ac/
+│   │       │           └── ara/
+│   │       │               └── hc/
+│   │       │                   └── logicmaze/
+│   │       │                       ├── data/        # Common data, level translator, and repository
+│   │       │                       ├── model/       # Game model (level and movement logic)
+│   │       │                       ├── ui/          # UI screens
+│   │       │                       └── viewmodel/   # Individual screen ViewModels
+│   │       ├── res/
+│   │       ├── AndroidManifest.xml
+│   │       └── ic_launcher-playstore.png
+│   ├── .gitignore
+│   ├── build.gradle
+│   └── proguard-rules.pro
+├── gradle/
+├── .gitignore
+├── build.gradle
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── README.md
+└── settings.gradle
+```
 
 # Level Creation
 
