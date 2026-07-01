@@ -32,3 +32,51 @@ git clone https://github.com/Tyelk/Maze_Game.git
 # Demo Video
 
 <video src="https://github.com/user-attachments/assets/1d32d194-4ca8-42f7-835e-6f5db17ff42a" controls width="100%"></video>
+
+
+# Level Creation
+
+Additional levels can be created by adding them into the levels folder!  
+Each level is made up of multiple spaces, and each space is comprised of a COLOUR | SHAPE | STATE.
+
+***NOTE:*** Levels must include only ONE player starting position and AT LEAST one goal.
+## Colours
+| Value | Colour | 
+| :---: | :---: | 
+| B | Blue |
+| R | Red | 
+| Y | Yellow | 
+| G | Green | 
+| P | Purple |
+
+## Shapes
+| Value | Shape | 
+| :---: | :---: | 
+| D | Diamond |
+| C | Cross | 
+| S | Star | 
+| F | Flower | 
+| L | Lightning | 
+
+## State
+| Value | State | 
+| :---: | :---: | 
+| 0 | Nothing |
+| 1 | Goal | 
+| < | Player start LEFT | 
+| > | Player start RIGHT | 
+| ^ | Player start UP |
+| v | Player start DOWN | 
+
+## Blank
+| Value | Space | 
+| :---: | :---: | 
+| ___ | Blank space |
+
+## Examples
+| Level Data | In-Game Layout | 
+| :---: | :---: | 
+| RD0,RC1<br>BD>,BC0 | <img width="363" height="361" alt="Screenshot_5" src="https://github.com/user-attachments/assets/e932c149-3a97-4411-9c9c-8f972587438b" /> |
+| RF0,RS1,GS0<br>BF0,___,GL0<br>BS0,RS^,BS0 | <img width="363" height="357" alt="Screenshot_2" src="https://github.com/user-attachments/assets/2f51f6dc-ca71-429b-a0c2-cc31dd364443" /> | 
+| RF0,RS0,GS0<br>BF0,RF1,GF0<br>BS0,RSv,BS0<br>GL0,RF0,YF1 | <img width="363" height="484" alt="Screenshot_4" src="https://github.com/user-attachments/assets/19e4b285-98ef-4900-b23d-885cfd30f60e" /> |
+
